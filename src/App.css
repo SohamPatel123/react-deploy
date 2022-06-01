@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+tr,
+td {
+    border: 1px solid black;
+}
+td{
+  height: 16px;
+  width: 16px;
+  padding: 0;
+}
+
+td:hover{
+  background-color: pink;
+}
+
+#root,#Grid{
+  align-items: center;
+}
